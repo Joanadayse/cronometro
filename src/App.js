@@ -56,6 +56,8 @@ this.setState(state)
   render(){
     return (
       <div className="container">
+        <h1>Larissa Renata</h1>
+        <h3>Time</h3>
         <img src={require("./assets/cronometro.png")} className="img" />
         <a className="timer">{this.state.numero.toFixed(1)}</a>
 
